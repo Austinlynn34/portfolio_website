@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>portfolio website</title>
+
+<!------font links------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<!------font links------->
+  </head>
+
+
+
+
+  <body onload = "fade('title_page')">
+
+
+
+
+<!------------title------------>
+    <div id = "title_page">
+
+
+
+      <!-----circles----->
+
+
+
+      <div class = "circle_type1" style = "background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/31/14/7aYvRU.jpg')"></div>
+
+
+      <div class = "circle_type2" style = "background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/31/14/7aYvRU.jpg'); position: absolute; right: 10%; top: 20%;"></div>
+
+
+
+      <div class = "circle_type3" style = "background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/31/14/7aYvRU.jpg'); position: absolute; right: 50%; top: 50%;"></div>
+
+
+
+
+      <div class = "circle_type2" style = "background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/31/14/7aYvRU.jpg'); position: absolute; right: 66%; top: 80%;"></div>
+
+
+
+      <div class = "circle_type1" style = "background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/31/14/7aYvRU.jpg'); position: absolute; right: 35%; top: 60%;"></div>
+
+
+
+
+      <div class = "circle_type3" style = "background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/31/14/7aYvRU.jpg'); position: absolute; right: 70%; top: 10%;"></div>
+
+
+
+
+      <div class = "circle_type2" style = "background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/31/14/7aYvRU.jpg'); position: absolute; right: 30%; top: 75%;"></div>
+      
+
+
+
+      <!-----circles----->
+
+
+
+      <center>
+
+
+        <h1 class = "title" style = "position: relative;">Austin's portfolio</h1>
+
+        <a href = "#about_page" onclick = "fade('about_page')"><img class = "arrow" src = "https://www.flaticon.com/premium-icon/icons/svg/3748/3748333.svg"/></a>
+
+
+      </center>
+
+    </div>
+<!------------title------------>
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------about------------>
+    <div id = "about_page">
+
+      <center>
+
+
+        <h1 class = "title">About me</h1>
+
+        <h1 class = "text">My name is Austin Ruiz. I am a Medical Assistant looking to venture out of my comfort zone. I am a new first time mommy to a beautiful baby boy. I am in the final project, but am still learning how things work.</h1>
+
+
+      </center>
+
+    </div>
+<!------------about------------>
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------projects------------>
+    <div id = "projects_page">
+
+      <center>
+
+
+        <h1 class = "title">My projects</h1>
+
+
+
+
+
+
+
+        <br>
+        <!--project images-->
+
+
+
+        <center>
+
+
+        <a href = ""><img class = "image" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuJqu7cP2X3oxXYcyrBaMo496999bTNh496Q&usqp=CAU"/></a>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+        <a href = ""><img class = "image" src = "https://s30776.pcdn.co/wp-content/uploads/2020/04/AdobeStock_305233591.jpeg"/></a>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+        <a href = ""><img class = "image" src = "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2020/03/XboxSeriesXController_HERO.jpg?resize=1200%2C675"/></a>
+        </center>
+
+
+
+<br>
+
+
+
+        <center>
+        <a href = ""><img class = "image" src = "https://www.metromag.co.nz/wp/wp-content/uploads/2020/11/3751ac31-3399-4efe-9781-d7ed5f278e42-newpasturemain.png"/></a>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+        <a href = ""><img class = "image" src = "https://live.staticflickr.com/3675/10081514014_1e85ef89a3_b.jpg"/></a>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+        <a href = ""><img class = "image" src = "https://www.nutsvolts.com/uploads/articles/NV_0704_Christopherson_Large.jpg"/></a>
+        
+        </center>
+
+
+
+
+        <!--project images-->
+
+
+      </center>
+
+    </div>
+<!------------projects------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------contacts------------>
+    <div id = "contacts_page">
+
+      <center>
+
+
+        <h1 class = "title">Contact me</h1>
+
+
+
+
+
+        <!-----social media----->
+
+
+
+        <div style = "display: inline">
+
+          <center>
+            <a href = ""><img class = "media_icons" src = "https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png"/></a>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+            <a href = ""><img class = "media_icons" src = "https://i.pinimg.com/736x/d5/18/ec/d518eceea19f4b1a2ee032ddc634dd7d.jpg"/></a>
+          </center>
+
+        </div>
+
+        <br><br>
+
+        <!-----social media----->
+
+
+      </center>
+
+    </div>
+<!------------contacts------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+
+
+      html{
+      scroll-behavior: smooth;
+      }
+
+
+
+
+
+
+      body{
+      background-color: #1C2833;
+      }
+
+
+
+
+
+
+      /*-----------title page-----------*/
+      #title_page{
+      position: absolute;
+      left: 0%;
+      top: 0%;
+
+
+      width: 100%;
+      height: 100%;
+
+
+      background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/31/14/7aYvRU.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      opacity: 0;
+      }
+      /*-----------title page-----------*/
+
+
+
+
+
+
+
+
+
+      /*-----------about page-----------*/
+      #about_page{
+      position: absolute;
+      left: 0%;
+      top: 100%;
+
+
+      width: 100%;
+      height: 100%;
+
+
+      background-image: url("https://i0.hippopx.com/photos/269/724/877/pink-romantic-background-preview.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      opacity: 1;
+      }
+      /*-----------about page-----------*/
+
+
+
+
+
+
+
+      /*-----------projects page-----------*/
+      #projects_page{
+      position: absolute;
+      left: 0%;
+      top: 200%;
+
+
+      width: 100%;
+      height: 130%;
+
+
+      background-image: url("https://snappygoat.com/b/cc1ec9b37f3685696491f9d430320a944bc72888");
+      background-size: cover;
+      background-attachment: fixed;
+      opacity: 1;
+      }
+
+
+
+
+
+
+
+      /*--- proj images ---*/
+      .image{
+      width: 36.5vh;
+      height: 25.5vh;
+      border-radius: 2vh;
+      border-width: 1vh;
+
+
+      border-style: solid;
+      border-color: lightgrey;
+      cursor: pointer;
+      }
+      /*--- proj images ---*/
+
+
+      /*-----------projects page-----------*/
+
+
+
+
+
+
+
+
+
+
+
+      /*-----------contacts page-----------*/
+      #contacts_page{
+      position: absolute;
+      left: 0%;
+      top: 330%;
+
+
+      width: 100%;
+      height: auto;
+
+
+      background-color: black;
+      background-size: cover;
+      background-attachment: fixed;
+      opacity: 1;
+      }
+
+
+
+
+
+      .media_icons{
+      width: 12vh;
+      height: 12vh;
+
+      border-radius: 2vh;
+
+      }
+      /*-----------contacts page-----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*classes*/
+      .circle_type1{
+      height: 15vh;
+      width: 15vh;
+      border-radius: 50%; 
+
+
+      background-attachment: fixed;
+      }
+
+
+
+
+      .circle_type2{
+      height: 20vh;
+      width: 20vh;
+      border-radius: 50%; 
+
+
+      background-attachment: fixed;
+      }
+
+
+
+      .circle_type3{
+      height: 8vh;
+      width: 8vh;
+      border-radius: 50%; 
+
+
+      background-attachment: fixed;
+      }
+
+
+
+
+
+      .title{
+      font-size: 20vh;
+      color: white;
+      width: max-content;
+      font-family: 'Lato', sans-serif;
+      }
+
+
+
+
+
+      .text{
+      font-size: 5vh;
+      color: white;
+      font-family: 'Lato', sans-serif;
+      }
+
+
+
+
+
+      .arrow{
+      width: 6vh;
+      height: 6vh;
+      border-radius: 12%;
+      background-color: white;
+      cursor: pointer;
+      }
+
+
+      /*classes*/
+
+
+
+
+
+
+
+
+
+
+
+      /*scroll bar*/
+
+      /* width */
+      ::-webkit-scrollbar {
+        width: 2.5vh;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #E5E8E8; 
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #909497; 
+        border-radius: 1vh;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+
+      /*scroll bar*/
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+
+        //fade variables---
+        var inc_interval
+        var increase = 0.022;
+        var opac_value = 0;
+        //fade variables---
+
+
+        //fade function---------
+        function fade(id_type){
+            opac_value = 0;
+
+            inc_interval = setInterval(function(){
+              opac_value += increase;
+              document.getElementById(id_type).style.opacity = opac_value;
+              document.getElementById(id_type).style.opacity = opac_value;
+
+
+
+              if (opac_value >= 1){
+              clearInterval(inc_interval);
+              } 
+
+              
+            }, 100/5);
+
+        }
+
+        //fade function---------
+
+
+
+    </script>
+  </body>
+</html>
